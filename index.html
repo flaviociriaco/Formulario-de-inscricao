@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    li
     <title>Formulário de inscrição</title>
   </head>
 
@@ -13,7 +14,7 @@
       <header>
         <h2>Client Form</h2>
       </header>
-      <form action="" method="post">
+      <form action="/action_page.php" method="post" target="_blank">
         <div class="container-form">
           <div>
             <label for="name">Name:</label>
@@ -54,9 +55,10 @@
               <label for="others">others</label>
             </div>
           </div>
-          <button>submit</button>
+          <input type="submit" value="Submit" id="submit">
         </div>
       </form>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
