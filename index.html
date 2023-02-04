@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    li
-    <title>Formulário de inscrição</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <header>
-        <h2>Client Form</h2>
-      </header>
-      <form action="/action_page.php" method="post" target="_blank">
-        <div class="container-form">
-          <div>
-            <label for="name">Name:</label>
-            <input placeholder="Digite seu nome" type="text" id="name" />
-          </div>
-          <div>
-            <label for="lastName">Lastname:</label>
-            <input
-              placeholder="Digite seu sobrenome"
-              type="text"
-              id="lastname"
-            />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input placeholder="Digite seu email" type="email" id="email" />
-          </div>
-          <div>
-            <label for="phone">Phone:</label>
-            <input placeholder="Digite seu telefone" type="tel" id="phone" />
-          </div>
-          <div>
-            <label for="address">Address:</label>
-            <input placeholder="Digite seu endereço" type="text" id="address" />
-          </div>
-          <div>
-            <label for="birth date">Birth Date:</label>
-            <input type="date" id="date" />
-          </div>
-          <div>
-            <p>Genre:</p>
-            <div class="list">
-              <input type="checkbox" id="female" name="female" />
-              <label for="female">female</label>
-              <input type="checkbox" id="male" name="male" />
-              <label for="female">male</label>
-              <input type="checkbox" id="others" name="others" />
-              <label for="others">others</label>
-            </div>
-          </div>
-          <input type="submit" value="Submit" id="submit">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <title>Formulário de inscrição</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h2>Formulário de Cliente</h2>
+    </header>
+    <form action="/action_page.php" method="post" target="_blank">
+      <div class="container-form">
+        <div>
+          <label for="name">Nome:</label>
+          <input placeholder="Digite seu nome completo" type="text" id="name"  required />
         </div>
-      </form>
-    </div>
-    <script src="./app.js"></script>
-  </body>
+        <div>
+          <label for="lastName">Cpf:</label>
+          <input placeholder="Digite seu cpf" type="text" id="lastname"  required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input placeholder="Digite seu email" type="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Telefone:</label>
+          <input placeholder="Digite seu telefone" type="tel" id="phone" required />
+        </div>
+        <div>
+          <label for="address">Endereço:</label>
+          <input placeholder="Digite seu endereço" type="text" id="address" required />
+        </div>
+        <div>
+          <label for="birth date">Data de Nascimento:</label>
+          <input type="date" id="date" />
+        </div>
+        <div>
+          <p>Genero:</p>
+          <div class="list">
+            <input type="radio" id="female" name="genre" />
+            <label for="female">Homem</label>
+            <input type="radio" id="male" name="genre" />
+            <label for="female">Mulher</label>
+            <input type="radio" id="others" name="genre" />
+            <label for="others">Outros</label>
+          </div>
+        </div>
+        <input type="submit" value="enviar" id="submit" />
+      </div>
+    </form>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
 </html>
