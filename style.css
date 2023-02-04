@@ -30,7 +30,7 @@ h2 {
   width: 100%;
   width: 500px;
   height: 40px;
-  background-color: blue;
+  background-color: #0557db;
   text-align: center;
   padding-top: 5px;
 }
@@ -65,7 +65,7 @@ p {
 }
 
 #submit {
-  background-color: aqua;
+  background-color: #0557db;
   margin: 60px auto;
   height: 40px;
   width: 200px;
@@ -85,5 +85,10 @@ input:hover {
 
  input #date {
   font-size: 30px;
+}
+
+.age {
+  width: 60px;
+  display: block;
 }
 
