@@ -43,6 +43,15 @@ function validaForm(form) {
     return false;
   }
 
+  if(form.email.value.indexOf("@") == -1 ||
+  form.email.value.indexOf(".") == -1 ||
+  form.email.value == "" ||
+  form.email.value == null) {
+    alert("Por favor, indique um e-mail válido.");
+    form.email.focus();
+    return false;
+}
+
   if (
     form.age.value == "" ||
     form.age.value == null 
@@ -61,13 +70,6 @@ function validaForm(form) {
     return false;
   }
 
-  if(form.email.value.indexOf("@") == -1 ||
-      form.email.value.indexOf(".") == -1 ||
-      form.email.value == "" ||
-      form.email.value == null) {
-        alert("Por favor, indique um e-mail válido.");
-        form.email.focus();
-        return false;
-    }
+ 
       
 }

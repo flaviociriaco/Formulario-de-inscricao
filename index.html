@@ -19,7 +19,7 @@
       <header>
         <h2>Formulário</h2>
       </header>
-      <form action="" method="post" target="_blank"
+      <form
         name="form"
         id="form"
         onsubmit="return validaForm(this);"
@@ -43,17 +43,7 @@
               type="text"
               id="cpf"
               minlength="11"
-              maxlength="11"
-            />
-          </div>
-          <div>
-            <label for="address">Endereço:</label>
-            <input
-              placeholder="Digite seu endereço"
-              type="text"
-              id="address"
-              minlength="5"
-              maxlength="50"
+              maxlength="14"
             />
           </div>
           <div>
@@ -64,6 +54,16 @@
               id="phone"
               minlength="11"
               maxlength="14"
+            />
+          </div>
+          <div>
+            <label for="address">Endereço:</label>
+            <input
+              placeholder="Digite seu endereço"
+              type="text"
+              id="address"
+              minlength="5"
+              maxlength="50"
             />
           </div>
 
@@ -85,8 +85,10 @@
             <div id="genre" class="list">
               <input type="radio" id="female" name="genre" />
               <label for="female">Homem</label>
+
               <input type="radio" id="male" name="genre" />
-              <label for="female">Mulher</label>
+              <label for="male">Mulher</label>
+
               <input type="radio" id="others" name="genre" />
               <label for="others">Outros</label>
             </div>
