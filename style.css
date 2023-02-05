@@ -19,6 +19,7 @@ form {
   background-color: #dbd3c8;
   width: 500px;
   height: 700px;
+  
 }
 
 .container-form {
@@ -45,6 +46,7 @@ input {
   padding-left: 5px;
   color: #000000;
   font-size: 18px;
+  outline: 0;
 }
 
 label {
@@ -91,4 +93,5 @@ input:hover {
   width: 60px;
   display: block;
 }
+
 
