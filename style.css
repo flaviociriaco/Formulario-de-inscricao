@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -18,8 +18,7 @@
 form {
   background-color: #dbd3c8;
   width: 500px;
-  height: 700px;
-  
+  height: 600px;
 }
 
 .container-form {
@@ -54,12 +53,8 @@ label {
   margin-left: 5px;
 }
 
-p {
-  font-size: 20px;
-}
-
 .list input {
-  margin-left: 30px;
+  margin: 15px 0 25px 30px;
   border-radius: 50px;
   font-size: 10px;
   height: 15px;
@@ -68,7 +63,7 @@ p {
 
 #submit {
   background-color: #0557db;
-  margin: 60px auto;
+  margin: 0px auto;
   height: 40px;
   width: 200px;
   display: block;
@@ -85,13 +80,7 @@ input:hover {
   opacity: 0.5;
 }
 
- input #date {
-  font-size: 30px;
-}
-
 .age {
   width: 60px;
   display: block;
 }
-
-

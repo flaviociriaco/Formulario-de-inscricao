@@ -1,11 +1,3 @@
-// function validar() {
-//     const name = document.getElementById("name");
-
-//   if (name.value == "") {
-//     alert("Por favor,preencha com seu nome!");
-//     return
-//   }
-
 function validaForm(form) {
   if (
     form.name.value == "" ||
@@ -43,14 +35,14 @@ function validaForm(form) {
     return false;
   }
 
-  if(form.email.value.indexOf("@") == -1 ||
-  form.email.value.indexOf(".") == -1 ||
-  form.email.value == "" ||
-  form.email.value == null) {
-    alert("Por favor, indique um e-mail válido.");
-    form.email.focus();
-    return false;
-}
+   if(form.email.value.indexOf("@") == -1 ||
+      form.email.value.indexOf(".") == -1 ||
+      form.email.value == "" ||
+      form.email.value == null) {
+        alert("Por favor, indique um e-mail válido.");
+        form.email.focus();
+        return false;
+    }
 
   if (
     form.age.value == "" ||
@@ -61,15 +53,5 @@ function validaForm(form) {
     return false;
   }
 
-  if (
-    form.genre.value == "" ||
-    form.genre.value == null 
-  ) {
-    alert("Por favor, escolha seu gênero");
-    form.genre.focus();
-    return false;
-  }
-
- 
-      
+    
 }
