@@ -12,4 +12,4 @@
   <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 <ul>
 <br>
-  <img src="https://github.com/flaviociriaco/Formulario-de-validacao-javascript/blob/master/assets/print-tela.png?raw=true" />
+  <img src="https://github.com/flaviociriaco/Formulario-de-validacao-javascript/blob/master/assets/print-tela-02.png?raw=true" />
